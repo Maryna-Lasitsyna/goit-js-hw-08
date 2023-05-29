@@ -13,7 +13,7 @@ function onFormData(e) {
 }
  
 function onSubmitForm(e) {
-  //  console.log(JSON.parse(localStorage.getItem('feedback-form-state')));
+   console.log(JSON.parse(localStorage.getItem('feedback-form-state')));
    e.preventDefault();
    e.currentTarget.reset();
    localStorage.removeItem('feedback-form-state');
